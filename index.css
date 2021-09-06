@@ -20,12 +20,18 @@ body{
     z-index: 100;
     background-color: #f0f0f2;
 }
+
+
+.page a:not(.button):not(.card):hover, .single-content a:not(.button):not(.card):hover {
+    background-size: 100% 1px;
+}
 .header{
     background-color: #fff;
     position: sticky;
     z-index: 600;
     height: 4rem;
     top: 0;
+    box-shadow: 0 4px 50px -10px rgb(37 44 63 / 30%);
 }
 @media (max-width: 1055px){
     .header {
@@ -2021,6 +2027,7 @@ h3 {
 
 .tw h3 {
     font-size: 24px;
+    font-family: 'font1B';
     line-height: 28px;
 }
 .side-content .side-content-lt h3 {
