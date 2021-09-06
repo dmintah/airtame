@@ -22,9 +22,10 @@ body{
 }
 .header{
     background-color: #fff;
-    position: relative;
+    position: sticky;
     z-index: 600;
     height: 4rem;
+    top: 0;
 }
 @media (max-width: 1055px){
     .header {
