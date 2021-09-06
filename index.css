@@ -109,6 +109,7 @@ body{
 a {
     color: inherit;
     font-size: inherit;
+    font-family: 'font-regular';
     font-weight: 400;
     line-height: 1.55;
     outline: none;
@@ -534,10 +535,6 @@ h5 {
 h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
     margin-top: 0;
 }
-
-/* .header-main-nav-dropdown-menu .header-main-nav-dropdown-menu-inner .header-main-nav-dropdown-menu-item .header-main-nav-dropdown-menu-title {
-    font-size: 16px;
-} */
 
 @media (min-width: 1055px){
     .header-main-nav-dropdown-menu .header-main-nav-dropdown-menu-inner .header-main-nav-dropdown-item .header-main-nav-dropdown-title{
@@ -1455,9 +1452,9 @@ body.nav-cart .nav-buy-now, body:not(.nav-cart) .nav-cart {
         padding: 4rem;
     }
 }
-/* .no-padding .content-padding {
+.no-padding .content-padding {
     padding: 0;
-} */
+}
 
 
 
@@ -1583,7 +1580,6 @@ p>a {
 .hero-btn {
     align-items: center;
     appearance: none;
-    /* background-color: #dde0e6; */
     border: none;
     border-radius: 4px;
     color: #252c3f;
@@ -2428,6 +2424,7 @@ label {
     text-transform: uppercase;
 }
 .wpcf7 form label {
+    font-family: 'font-regular2';
     font-size: .85rem;
     font-weight: 500;
     color: #000;
@@ -2479,7 +2476,7 @@ button, input, select, textarea {
     padding: 0 1rem 0 6.5rem;
     color: #252c3f;
     font-weight: 500;
-    font-family: 'font-regular';
+    font-family: 'font-regular2';
     font-size: 1rem;
     outline: none;
     background: #f7f7f8;
@@ -2491,6 +2488,9 @@ button, input, select, textarea {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+
+
 .wpcf7 form .cb-field input[role=combobox], .wpcf7 form .cb-field input[type=email], .wpcf7 form .cb-field input[type=select], .wpcf7 form .cb-field input[type=tel], .wpcf7 form .cb-field input[type=text] {
     padding: 0 1rem 0 6rem;
 }
@@ -2557,6 +2557,7 @@ button, input, select, textarea {
     cursor: pointer;
     outline: none;
     text-align: center;
+    font-family: 'font-regular2';
     font-size: 1rem;
     color: #fff;
     min-width: 4rem;
@@ -2699,6 +2700,7 @@ section.tw.cta .cta-content {
 }
 .button-lg, .button-lg-on-sm{
     font-size: 1rem;
+    font-family: 'font-regular2';
     height: 44px;
     padding: 0 2rem;
     margin-bottom: 1rem;
@@ -2804,6 +2806,7 @@ section.tw.cta .cta-content {
 .wid-copy .footer-menu-item, .wid-footer .footer-menu-item, .wid-social .footer-menu-item {
     border-radius: 4px;
     color: #252c3f;
+    font-family: 'font-regular';
     font-size: 1rem;
     line-height: 1.1875rem;
     margin-bottom: 0;
@@ -2978,7 +2981,7 @@ section.tw.cta .cta-content {
     bottom: 0;
     color: inherit;
     cursor: pointer;
-    font-family: inherit;
+    font-family:'font-regular2';
     font-size: inherit;
     font-weight: inherit;
     left: 0;
@@ -3056,4 +3059,12 @@ button, select {
     color: #252c3f;
     font-size: inherit;
     margin: 0;
+    font-family: 'font-regular';
+}
+
+
+
+
+.nav-has-dropdown:hover{
+    display: block;
 }
